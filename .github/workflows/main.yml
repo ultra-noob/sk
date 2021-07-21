@@ -8,7 +8,7 @@ jobs:
 
     runs-on: windows-latest
 
-    timeout-minutes: 9999
+    timeout-minutes: 525600
 
     steps:
 
@@ -54,6 +54,6 @@ jobs:
 
       run: cmd /c NGROK-CHECK.bat
 
-    - name: All Done! You can close Tab now! Maximum VM time:6h.
+    - name: All Done! You can close Tab now! Maximum VM time:8760h.
 
       run: cmd /c loop.bat
